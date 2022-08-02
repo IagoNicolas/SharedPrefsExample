@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="10dp"
+    android:paddingVertical="10dp" >
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/field_email"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:id="@+id/etPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/field_password"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="saveKeys"
+        android:text="@string/action_save" />
+
+    <Button
+        android:id="@+id/btnRetr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="retrieveKeys"
+        android:text="@string/action_retrieve" />
+
+    <Button
+        android:id="@+id/btnClearFields"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clearFields"
+        android:text="@string/action_clear_fields" />
+
+    <Button
+        android:id="@+id/btnClearKeys"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="clearKeys"
+        android:text="@string/action_clear_keys" />
+
+</LinearLayout>

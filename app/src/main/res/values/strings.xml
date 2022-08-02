@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SharedPrefsExample</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_save">Save</string>
+    <string name="action_retrieve">Retrieve</string>
+    <string name="action_clear_fields">Clear Fields</string>
+    <string name="action_clear_keys">Clear Keys</string>
+    <string name="field_email">Email</string>
+    <string name="field_password">Password</string>
+</resources>
